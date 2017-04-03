@@ -1,0 +1,7 @@
+# ScriptNyelvekBeadando2
+## 1. feladat
+Vegyünk egy olyan programozási nyelvet, amelyben a szekvenciát "utasitas ;utasitas" szerkezet (a pontosvessző előtt lehet space, de utána nem), az elágazást "ELAGAZAS feltetel [[utasitasok ]]" szerkezet, míg a ciklust "CIKLUS feltetel [[utasitasok ]]" szerkezet jelöli (a szerkezetekben az utasítások helyes python utasítások). A feladat egy olyan program elkészítése, amely megkeresi az aktuális könyvtárban (ahol futtatjuk) a ".prog" kiterjesztésű, fenti szintaxisnak megfelelő fájlokat és minden ilyen fájlból egy ugyanolyan nevű, de ".py" kiterjesztésű fájlt készít, amely a leírásnak megfelelő helyes python programot tartalmaz. A python program "for", illetve "if" szerkezeteket használjon (a kezdő sorban a ":" előtt mindig pontosan egy space legyen) és a belső blokkokat mindig 4 db space-el beljebb kezdje. Feltehető, hogy a ciklusokon/elágazásokon belül nincs újabb ciklus/elágazás.
+A megoldást tartalmazó python fájl forráskódját kell feltölteni (UTF-8 kódolásnak megfelelően).
+## 2. feladat
+A feladat az 1.részben leírt program kiterjesztése úgy, hogy olyan ".prog" fájlokra is működjön, melyek egyszintű beágyazott ciklusokat is tartalmaznak, azaz ha a ciklusokon belül lehetnek újabb ciklusok is (de a belső ciklusokon belül már nem). (Az ebben az esetben is feltehető, hogy elágazáson belül nincs újabb ciklus vagy elágazás és cikluson belül sincs elágazás.)
+A megoldást tartalmazó python fájl forráskódját kell feltölteni (UTF-8 kódolásnak megfelelően).
